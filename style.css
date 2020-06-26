@@ -1,0 +1,504 @@
+body
+{
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+#body-header
+{
+    
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url(images/finalHeader.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+    
+    
+}
+.horizontal-list
+{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+    
+   
+}
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 15px 15px 0px;
+    
+}
+.horizontal-list li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    
+}
+ 
+.nav-menu li a
+{
+    transition: color 0.7s , border-bottom 4s;
+}
+.nav-menu li a:hover
+{
+    color:lightgray;
+    border-bottom: 1px solid white;
+    transition: border-bottom 20s;
+
+}
+.text-center
+{
+    text-align: center;
+}
+  
+#name-social-container
+{
+    margin-top: 20vh;
+
+}
+#my-name
+{
+    font-size: 5rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.social-icons li a i{
+    padding: 10px;
+    font-size: 1.5rem;
+   border: 1px solid;
+    border-radius: 48%;
+    
+}
+.social-icons li a  :hover
+{
+    
+    box-shadow: 0px 0px 6px 4px #888888;
+    transition: box-shadow 0.7s;
+    
+}
+/* profile pic about section */
+#profile-pic
+{
+    height: 223px;
+    width: 227px;
+    border: 2px soli grey;
+    border-radius: 50%;
+    background-image: url(images/profile.jpg);
+    background-size: cover;
+    margin-left: 1vw;
+    margin-top: -15vh;
+    position: relative;
+    box-shadow: 0px 0px 6px 4px lightgray;
+
+
+}
+#about
+{
+    background: repeating-linear-gradient(120deg, rgba(23, 241, 241,0.1),rgb(131, 201, 131,0), rgb(241, 151, 151,0.1),  rgba(23, 241, 241,0.1));
+}
+
+#about p{
+    
+    font-size: 1.2rem;
+    
+    margin-left: 30vw;
+    margin-right: 30vw;
+    text-align: justify;
+    
+
+}
+
+ /* Section CSS */
+ section{
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding-bottom: 20px;
+ }
+ section:nth-child(2n  + 1)
+ {
+     background-color: white;
+
+ }
+ section:nth-child(2n) {
+    background-color: #9e9b9b29;
+
+ }
+ .section-heading
+ {
+    
+     width: auto;
+    padding: 20px 10px 10px;
+    margin: 10px auto;
+    font-weight: 400;
+ }
+  
+.section-heading span {
+
+    font-size: var(--section-heading-font-size);
+    color: #2857a4;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+
+}
+
+/* skills Display */
+.skills-display {
+    width: 70%;
+    margin-top: -10vh;
+    margin-left: 50vw;
+    margin-right: 50vw;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.skill-progress {
+    width: 8rem;
+    height: 2rem;
+    margin: 20px;
+    background-color: lightgrey;
+    border-radius: 0.8rem;
+    overflow: hidden;
+    box-shadow: inset 1px 1px 2px 1px #b9b9b9;
+}
+
+ .mb75px
+ {
+     margin-bottom: 75px;
+ }
+ /*  setting the progress bar of Skills*/
+
+ .skill-progress>div{
+     border-radius: 20px 0px 0px 20px;
+ }
+  
+ .skill-name {
+    font-size: 15px;
+    color: white;
+    padding: 6px 0 10px 20px;
+
+}
+ .skill-name span{
+      margin: 0;
+ }
+.mb-blue
+ {
+     background-color: #2857a4;
+ }
+ /*  Percentage Classes*/
+ .fiffty-percent span
+ {
+     width: 25%;
+    
+ }
+ .mb-blue {
+    background-color: #2857a4;
+}
+
+.mb-orange {
+    background-color: #ff5722;
+}
+
+
+.mb-teal {
+    background-color: #009688;
+}
+
+.mb-light-purple {
+    background-color: #93738c;
+}
+
+.m-blue {
+    color: #2857a4;
+}
+
+/*Common Percent classes*/
+.eighty-percent {
+    height: inherit;
+    width: 80%;
+}
+
+.eighty-five-percent {
+    height: inherit;
+    width: 80%;
+}
+
+.seventy-five-percent {
+    height: inherit;
+    width: 75%;
+}
+
+/* common margin classes */
+.m0 {
+    margin: 0;
+}
+
+
+/*  Work Experience Section*/
+
+.timeline
+{
+
+    position: relative;
+    
+    width: 75%;
+   
+}
+#breif-icon
+{
+    color: #2857a4;
+}
+.timelinebox
+{
+    position: relative;
+    width: 40%;
+    left: 5%;
+    height: 150px;
+
+}
+.timelinebox:nth-child(2n  +1)
+{
+    left: 55%;
+        text-align: left;
+}
+#plane
+{
+    height: auto;
+    
+    
+    width: auto;
+}
+
+
+#plane span i
+{
+    transform: rotate(90deg);
+    
+         color: #2857a4;
+         left: 48%;
+         margin-top: -15px;
+    position: sticky;
+    
+    /* display: inline-block;
+    left: 60;
+    position: sticky; */
+}
+
+.timeline #plane{
+    position: sticky;
+    top: 135px;
+    z-index: 2; 
+}
+.divider
+{
+    position: absolute;
+    height: 90.1%;
+    top: 8%;
+    left: 48.5%;
+    width: 0;
+    padding: 0px;
+    
+    border: 3px dashed #0096fa6b;
+}
+.timelinebox
+{
+    text-align: right;
+}
+.timelinebox p
+{
+    
+    color: #2857a4;
+    display: inline-block;
+    position: relative;
+    text-align: right;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.3;
+    margin: 0px;
+    margin-left: 45%;
+}
+#orange
+{
+    color: orangered;
+    font-weight: 400;
+}
+#grey
+{
+    color: darkgrey;
+    font-weight: 350;
+
+}
+#cn-logo
+{
+    margin-left: 10vw;
+    height: 30%;
+    position  : absolute;
+
+    width:  10%;
+    
+    background-image: url(images/logo.png);
+    display: inline-block;
+    background-size: cover;
+} 
+
+/*Education Section*/
+.btech
+{
+    position: relative;
+}
+.data
+{
+    position: absolute;
+}
+#data h1
+{
+    color: #2857a4;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+#data h2
+{
+        color: #ff5722;
+        font-weight: 500;
+        font-size: 1.4rem;
+}
+#data h3{
+
+    color: rgb(233, 94, 94);
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+/* Contact section */
+#cont
+{
+
+    height: 64vh;
+    width: 100vw;
+    /* background: linear-gradient(#141e30, #243b55); */
+    /* background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%); */
+    /* background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%); */
+    /* background-image: linear-gradient(to top, #09203f 0%, #537895 100%); */
+    background-color: #29539b;
+background-image: linear-gradient(315deg, #29539b 0%, #1e3b70 74%);
+}
+#conta
+{
+    left: 50%;
+}
+.mg-10
+{
+    margin-top: 25px;
+    font-weight: 500;
+}
+#main-container
+{
+    display: flex;
+}
+.details{
+    margin-top: 2rem;
+    margin-left: 20%;
+    height: 50%;
+    width: 25%;
+    /* border: 2px solid pink; */
+}
+#cont-details
+{
+    margin-top: 2.5rem;
+    margin-left: 4%;
+    height: 50%;
+    width: 25%;
+    /* border: 2px solid pink; */
+}
+@keyframes rotateCube
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+
+}
+#cont-details h1
+{
+    line-height: 0.5;
+}
+#cont-details span i {
+    /* animation: move 1s ease-in-out infinte; */
+    
+    animation: rotateCube 2s ease-in-out infinite alternate;
+}
+#cont-details span{
+    margin-top: -5px;
+    position: relative;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.white
+{
+    color: white;
+}
+.white i{
+    display: inline;
+    margin-right: 10px;
+}
+
+.text-style
+{
+    color: white;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+#c-form ::placeholder
+{
+    color: white;
+}
+/* #form input[type=text] :focus
+{
+    outline: lightpink;
+}  */
+ 
+input[type=text] {
+    width: 100%;
+    height: 10%;
+    padding: 12px 18px;
+    margin: 8px 0;
+    border: none;
+    font-weight: 500;
+    font-size: 1.2rem;
+    border-bottom: 3px solid  #032b69;
+    background-color: inherit;
+    color: white;
+    box-sizing: border-box;
+    outline: none;
+  }
+  .button {
+    background-color: inherit; /* Green */
+    border: 2px solid white;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    align-items: center;
+    transition: 1s ease-in-out;
+    /* margin-left: 51%; */
+  }
+  .details #b1 :hover {
+      color:rgb(25, 25, 95);
+  }
+  
